@@ -24,10 +24,10 @@ CarbonDioxide.generateJSONFileCurrentValue();
 CarbonDioxide.generateJSONFileFutureValues(CarbonDioxide.getAvgRateOfChange(year - 2, year - 1));
 ```
 
-![Screenshot 2024-04-14 101430](https://github.com/GOwnby/Earth-Data-Researcher/assets/37450012/8806e5f3-e741-4936-b957-d3280762464b)
-![Screenshot 2024-04-14 101523](https://github.com/GOwnby/Earth-Data-Researcher/assets/37450012/5e1b0bce-2aef-4ea1-b2ff-20b1242c8284)
-![Screenshot 2024-04-14 101644](https://github.com/GOwnby/Earth-Data-Researcher/assets/37450012/40780f09-bb61-43ea-9c07-30374ac28341)
-![Screenshot 2024-04-14 101747](https://github.com/GOwnby/Earth-Data-Researcher/assets/37450012/36688f8e-6d4c-4e6e-84b2-09a6a299260f)
+![Screenshot 2024-04-17 111746](https://github.com/GOwnby/Earth-Data-Researcher/assets/37450012/be133106-b1f6-47fa-9cf8-91d348533b02)
+![Screenshot 2024-04-17 111848](https://github.com/GOwnby/Earth-Data-Researcher/assets/37450012/7e8ca3cc-89a4-4d67-9656-c2bb799eb2a8)
+![Screenshot 2024-04-17 111908](https://github.com/GOwnby/Earth-Data-Researcher/assets/37450012/366363d8-304d-4c33-90fa-9ccfbf08a38b)
+![Screenshot 2024-04-17 111944](https://github.com/GOwnby/Earth-Data-Researcher/assets/37450012/761c9f69-1d8e-4917-bae7-a586f4159008)
 
 
 # Setting up the Java Application
