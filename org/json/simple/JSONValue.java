@@ -257,7 +257,9 @@ public class JSONValue {
 	 */
 	public static String escape(String s){
 		if(s==null)
-			return null;
+			{
+			    return null;
+			}
         StringBuffer sb = new StringBuffer();
         escape(s, sb);
         return sb.toString();
