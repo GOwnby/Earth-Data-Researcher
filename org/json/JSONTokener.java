@@ -534,7 +534,7 @@ public class JSONTokener {
 
     private boolean checkIfValueIsBooleanOrNumeric(Object valueToValidate) {
         String stringToValidate = valueToValidate.toString();
-        if (stringToValidate.equals("true") || stringToValidate.equals("false")) {
+        if ("true".equals(stringToValidate) || "false".equals(stringToValidate)) {
             return true;
         }
 

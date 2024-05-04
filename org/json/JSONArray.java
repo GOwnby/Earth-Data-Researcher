@@ -319,12 +319,12 @@ public class JSONArray implements Iterable<Object> {
     public boolean getBoolean(int index) throws JSONException {
         Object object = this.get(index);
         if (object.equals(Boolean.FALSE)
-                || (object instanceof String && ((String) object)
-                        .equalsIgnoreCase("false"))) {
+                || (object instanceof String && "false"
+                        .equalsIgnoreCase(((String) object)))) {
             return false;
         } else if (object.equals(Boolean.TRUE)
-                || (object instanceof String && ((String) object)
-                        .equalsIgnoreCase("true"))) {
+                || (object instanceof String && "true"
+                        .equalsIgnoreCase(((String) object)))) {
             return true;
         }
         throw wrongValueFormatException(index, "boolean", object, null);

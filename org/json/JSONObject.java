@@ -659,12 +659,12 @@ public class JSONObject {
     public boolean getBoolean(String key) throws JSONException {
         Object object = this.get(key);
         if (object.equals(Boolean.FALSE)
-                || (object instanceof String && ((String) object)
-                        .equalsIgnoreCase("false"))) {
+                || (object instanceof String && "false"
+                        .equalsIgnoreCase(((String) object)))) {
             return false;
         } else if (object.equals(Boolean.TRUE)
-                || (object instanceof String && ((String) object)
-                        .equalsIgnoreCase("true"))) {
+                || (object instanceof String && "true"
+                        .equalsIgnoreCase(((String) object)))) {
             return true;
         }
         throw wrongValueFormatException(key, "Boolean", object, null);
